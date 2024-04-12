@@ -1,0 +1,62 @@
+<style>
+    body{
+        background-color: black;
+        background-size: cover;
+    }
+    label{
+        color: white;
+    }
+    h3{
+        color: white;
+        font-size: x-large;
+    }
+    #zun1{
+        position: absolute;
+        top : 80;
+        left: 600;
+    }
+    #zun2{
+        position: absolute;
+        top : 80;
+        left: 1000;
+    }
+</style>
+<!DOCTYPE html>
+<head>
+    <title>
+       <Task>
+    </title>
+</head>
+<body style="margin-left: 60px; margin-top: 20px" style="display:;">
+    <h1 align="center" style="color:white"><b> TASK MANAGER </h1>
+<div style="margin-top: 40px;">
+    <h3> Choose Your Software Developer : </h3>
+    <div class="zun">
+    <input type="radio" id="1" name="dev" value="arpan">
+    <label for="1"> Arpan </label><br>
+    <input type="radio" id="2" name="dev" value="chirag">
+    <label for="2"> Chirag </label><br>
+    <input type="radio" id="3"  name="dev" value="deep">
+    <label for="3"> Deep </label><br>
+    <input type="radio" id="4"  name="dev"  value="abhishek">
+    <label for="4"> Abhishek </label><br>
+    </div>
+    <div id="zun1">
+    <h3> Choose Technology : </h3>
+    <input type="radio" id="5" name="lang" value="Python">
+    <label for="lang"> Python </label><br>
+    <input type="radio" id="6" name="lang" value="Php">
+    <label for="lang"> Php </label><br>
+    <input type="radio" id="7" name="lang" value="C++">
+    <label for="lang"> C++ </label><br>
+    <input type="radio" id="8" name="lang" value="Javascript">
+    <label for="lang"> Javascript </label>
+    </div>
+    <div id="zun2">
+    <h3> Choose the Time Frame : </h3> <br>
+    <p style="margin-top: -20px; color: white;"> FROM  </p> <input type="date"> <p style="color:white"> TO</p>  <input type="date"><br>
+    </div>
+</div>
+<textarea  style="margin-top: 50px; height: 277px; width: 843px;" placeholder="Describe the Task With it's Functionalties" ></textarea><br><br>
+    <button  style="height: 60px; width: 100px;"> Submit </button>
+</body>
